@@ -1,0 +1,143 @@
+.image {
+    background-image: url("img/image1.png");
+    background-size: cover;
+    width: 679px;
+    height: 482px;
+    margin-top: 52px;
+    margin-left: 50px;
+}
+
+.img_links {
+    display: flex;
+    margin: 10px;
+    width: 300px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.img {
+    margin: 10px;
+}
+
+
+.text {
+    color: red;
+    background-color: darkorange;
+    width: 100px;
+    align-content: center;
+    text-align: center;
+}
+
+.arrow-prev {
+    color: red;
+    margin-left: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: -15px;
+}
+
+img:hover {
+    border: 3px solid #413f3f;
+}
+
+a:hover {
+    border: 3px solid grey;
+}
+
+body {
+    background-color: #131313;
+    width: 100%;
+}
+.content {
+    margin-top: 107px;
+    margin-left: 134px;
+    margin-right: 134px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.p_text {
+    width: 442px;
+    font-size: 14px;
+    line-height: 26.73px;
+    font-family: "Nunito Sans";
+}
+p {
+    color: white;
+    font-size: 13px;
+    line-height: 21.28px;
+}
+
+h1 {
+    color: rgba(227, 184, 115, 1);
+    text-transform: uppercase;
+    font-family: "Yeseva One";
+}
+h3 {
+    color: #E3B873;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25.95px;
+    font-family: "Yeseva One";
+
+}
+h4 {
+    color: white;
+    text-transform: uppercase;
+    opacity: 30%;
+    margin-right: 50px;
+    font-size: 14px;
+    line-height: 19.4px;
+    font-family: "Yeseva One";
+    cursor: pointer;
+}
+.parameter {
+    width: 181px;
+}
+.parameters {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 200px;
+
+
+}
+.nav_head {
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+}
+.right_side_content {
+    margin-top: -25px;
+}
+.left_side_content {
+    margin-top: 75px;
+    width: 40%;
+}
+.par_value {
+    color: white;
+}
+.prev{
+    cursor: pointer;
+}
+.next{
+    cursor: pointer;
+}
+.dot{
+    cursor: pointer;
+}
+
+.rostov_adm{
+    color: rgba(227, 184, 115, 1); 
+    text-decoration: underline; 
+}
+.par_value{
+    font-family: "Nunito Sans";
+}
