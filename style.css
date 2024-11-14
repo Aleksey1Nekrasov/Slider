@@ -19,7 +19,6 @@
     margin: 10px;
 }
 
-
 .text {
     color: red;
     background-color: darkorange;
@@ -54,6 +53,7 @@ body {
     background-color: #131313;
     width: 100%;
 }
+
 .content {
     margin-top: 107px;
     margin-left: 134px;
@@ -68,6 +68,7 @@ body {
     line-height: 26.73px;
     font-family: "Nunito Sans";
 }
+
 p {
     color: white;
     font-size: 13px;
@@ -79,14 +80,15 @@ h1 {
     text-transform: uppercase;
     font-family: "Yeseva One";
 }
+
 h3 {
     color: #E3B873;
     text-transform: uppercase;
     font-size: 18px;
     line-height: 25.95px;
     font-family: "Yeseva One";
-
 }
+
 h4 {
     color: white;
     text-transform: uppercase;
@@ -97,47 +99,60 @@ h4 {
     font-family: "Yeseva One";
     cursor: pointer;
 }
+
 .parameter {
     width: 181px;
 }
+
 .parameters {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 400px;
     height: 200px;
-
-
 }
+
 .nav_head {
     display: flex;
     justify-content: start;
     margin-left: 50px;
 }
+
 .right_side_content {
     margin-top: -25px;
 }
+
 .left_side_content {
     margin-top: 75px;
     width: 40%;
 }
+
 .par_value {
     color: white;
 }
+
 .prev{
     cursor: pointer;
 }
+
 .next{
     cursor: pointer;
 }
+
 .dot{
     cursor: pointer;
 }
 
-.rostov_adm{
-    color: rgba(227, 184, 115, 1); 
-    text-decoration: underline; 
-}
 .par_value{
     font-family: "Nunito Sans";
+}
+
+.active{
+    color: rgba(227, 184, 115, 1);
+    text-decoration: underline;
+}
+
+.notactive{
+    color: white; 
+    text-decoration: none;
 }
